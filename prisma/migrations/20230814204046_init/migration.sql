@@ -1,0 +1,15 @@
+-- AlterTable
+ALTER TABLE `wp_comments` MODIFY `comment_date` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00',
+    MODIFY `comment_date_gmt` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00';
+
+-- AlterTable
+ALTER TABLE `wp_links` MODIFY `link_updated` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00';
+
+-- AlterTable
+ALTER TABLE `wp_posts` MODIFY `post_date` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00',
+    MODIFY `post_date_gmt` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00',
+    MODIFY `post_modified` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00',
+    MODIFY `post_modified_gmt` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00';
+
+-- AlterTable
+ALTER TABLE `wp_users` MODIFY `user_registered` DATETIME(1) NOT NULL DEFAULT '0000-01-01 00:00:00';

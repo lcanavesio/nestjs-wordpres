@@ -1,0 +1,14 @@
+export { AggregateWp_termmetaArgs } from "./AggregateWp_termmetaArgs";
+export { CreateManyWp_termmetaArgs } from "./CreateManyWp_termmetaArgs";
+export { CreateOneWp_termmetaArgs } from "./CreateOneWp_termmetaArgs";
+export { DeleteManyWp_termmetaArgs } from "./DeleteManyWp_termmetaArgs";
+export { DeleteOneWp_termmetaArgs } from "./DeleteOneWp_termmetaArgs";
+export { FindFirstWp_termmetaArgs } from "./FindFirstWp_termmetaArgs";
+export { FindFirstWp_termmetaOrThrowArgs } from "./FindFirstWp_termmetaOrThrowArgs";
+export { FindManyWp_termmetaArgs } from "./FindManyWp_termmetaArgs";
+export { FindUniqueWp_termmetaArgs } from "./FindUniqueWp_termmetaArgs";
+export { FindUniqueWp_termmetaOrThrowArgs } from "./FindUniqueWp_termmetaOrThrowArgs";
+export { GroupByWp_termmetaArgs } from "./GroupByWp_termmetaArgs";
+export { UpdateManyWp_termmetaArgs } from "./UpdateManyWp_termmetaArgs";
+export { UpdateOneWp_termmetaArgs } from "./UpdateOneWp_termmetaArgs";
+export { UpsertOneWp_termmetaArgs } from "./UpsertOneWp_termmetaArgs";

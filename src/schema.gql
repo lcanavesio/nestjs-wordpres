@@ -1,0 +1,42 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type WP_Post {
+  ID: String!
+  post_author: String
+  post_date: Timestamp
+  post_date_gmt: Timestamp
+  post_content: String
+  post_title: String
+  post_excerpt: String
+  post_status: String
+  comment_status: String
+  ping_status: String
+  post_password: String
+  post_name: String
+  to_ping: String
+  pinged: String
+  post_modified: Timestamp
+  post_modified_gmt: Timestamp
+  post_content_filtered: String
+  post_parent: String
+  guid: String
+  menu_order: Float
+  post_type: String
+  post_mime_type: String
+  comment_count: String
+}
+
+"""
+`Date` type as integer. Type represents date and time as number of milliseconds from start of UNIX epoch.
+"""
+scalar Timestamp
+
+type Query {
+  getPost(WP_Post_WhereUniqueInput: WP_Post_WhereUniqueInput!): WP_Post
+}
+
+input WP_Post_WhereUniqueInput {
+  ID: Float!
+}

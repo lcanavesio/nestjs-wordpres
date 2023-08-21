@@ -1,0 +1,14 @@
+export { AggregateWp_commentmetaArgs } from "./AggregateWp_commentmetaArgs";
+export { CreateManyWp_commentmetaArgs } from "./CreateManyWp_commentmetaArgs";
+export { CreateOneWp_commentmetaArgs } from "./CreateOneWp_commentmetaArgs";
+export { DeleteManyWp_commentmetaArgs } from "./DeleteManyWp_commentmetaArgs";
+export { DeleteOneWp_commentmetaArgs } from "./DeleteOneWp_commentmetaArgs";
+export { FindFirstWp_commentmetaArgs } from "./FindFirstWp_commentmetaArgs";
+export { FindFirstWp_commentmetaOrThrowArgs } from "./FindFirstWp_commentmetaOrThrowArgs";
+export { FindManyWp_commentmetaArgs } from "./FindManyWp_commentmetaArgs";
+export { FindUniqueWp_commentmetaArgs } from "./FindUniqueWp_commentmetaArgs";
+export { FindUniqueWp_commentmetaOrThrowArgs } from "./FindUniqueWp_commentmetaOrThrowArgs";
+export { GroupByWp_commentmetaArgs } from "./GroupByWp_commentmetaArgs";
+export { UpdateManyWp_commentmetaArgs } from "./UpdateManyWp_commentmetaArgs";
+export { UpdateOneWp_commentmetaArgs } from "./UpdateOneWp_commentmetaArgs";
+export { UpsertOneWp_commentmetaArgs } from "./UpsertOneWp_commentmetaArgs";
